@@ -22,5 +22,5 @@ while True:
         temperature_celciusF = round(temperature_kelvinF - 273.15)
         weatherDescription = weatherData['weather'][0]['description']
         print(
-            f'This is Noraml temperature {temperature_celciusN}\u00B0C  but it feels like {temperature_celciusF}\u00B0C also weather is like {weatherDescription.capitalize()}')
+            f"Today's normal temperature is  {temperature_celciusN}\u00B0C  but it feels like {temperature_celciusF}\u00B0C also weather is like {weatherDescription.capitalize()}")
 
